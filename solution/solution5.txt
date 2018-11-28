@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c,d,e;
+	printf("enter a number\n");
+	scanf("%d",&a);
+	b = a*a;
+	c= a*a*a;
+	d = a*a*a*a;
+	e = a*a*a*a*a;
+	printf("%d,%d,%d,%d",b,c,d,e);
+	return 0;
